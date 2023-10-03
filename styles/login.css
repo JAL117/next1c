@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-image: url(../assets/MX-es-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+
+.logo img {
+    height: 45px;
+    width: 167px;
+}
+
+.header {
+    padding: 20px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.login__body {
+    margin-top: 10px;
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 650px;
+    margin-left: 50%;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.login__body h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.login__body input {
+    font-size: medium;
+    font-weight: 400;
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.login__body input:hover {
+    background-color: #444;
+}
+
+.input__box {
+    margin-bottom: 25px;
+}
+
+.login__body button {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: #e50914;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.login__body button:hover {
+    background-color: #fc1722;
+    cursor: pointer;
+}
+
+.support {
+    display: flex;
+    color: #b3b3b3;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.support input {
+    width: 15px;
+    height: 15px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember span {
+    margin-right: 5px;
+    height: 25px;
+}
+
+.help a {
+    text-decoration: none;
+    color: #737373;
+}
+
+.help a:hover {
+    text-decoration: underline;
+}
+
+.sign__up {
+    color: #737373;
+    font-size: 16px;
+}
+
+.sign__up a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.sign__up a:hover {
+    text-decoration: underline;
+}
+
+.terms {
+    margin-top: 15px;
+    color: #737373;
+    font-size: 13px;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #0071eb;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+
+.login__footer{
+    margin-top: 50px;
+}
+
+.foot{
+    font-size: small;
+    background-color: rgb(0, 0, 0, .8);
+    border-top: none;
+    margin-top: 80px;
+    display: flex;
+}
+.foot .footer__row__2 ul li{
+    margin-top: 15px;
+}
+
+.foot .footer__row__2 ul li a{
+    text-decoration: none;
+}
